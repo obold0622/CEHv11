@@ -119,6 +119,16 @@ SQL Command | Info.
 
 **Out-of-band SQL injection** - uses different communication channels (e.g. export results to file on web server)
 
+**Boolean exploitation** - uses several true or false statemets, such as `1=1` or `1=2`, to infer whether SQL injection is successful.
+
+- Eg: Suppose the attacker makes these two queries:
+
+- ```
+http://www.example.com/?id=30 and 1=1
+http://www.example.com/?id=30 and 1=2
+```
+If the two queries return different results, then SQL injection is successful.
+
 **Blind/inferential** - error messages and screen returns don't occur; usually have to guess whether command work or use timing to know
 
 - **SQLi Tools:**
