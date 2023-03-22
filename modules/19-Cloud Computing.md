@@ -1,7 +1,6 @@
 # Cloud Computing
 
 ## <u>Cloud Computing Basics</u>
-
 - **Three Types of Service Models**:
   - **Infrastructure as a Service (IaaS)**
     - Provides virtualized computing resources
@@ -114,7 +113,7 @@ Storage/Networking | managed by provider
 7. Cryptanalysis attacks
 8. Wrapping attacks - performed during the translation of SOAP messages in the TLS layer; attackers duplicate the body of the message and send it to the targeted server impersonating the legitimate user.
 9. DoS/DDoS attack
-10. Main-in-the-Cloud attacks - abuse of cloud file synchronization services br tracking the user into installing malicious software that places the attacker's synchronization token for the service ton their machine, allowing the attacker to steal the user's token and gain access to their files.
+10. Man-in-the-Cloud attacks - abuse of cloud file synchronization services br tracking the user into installing malicious software that places the attacker's synchronization token for the service ton their machine, allowing the attacker to steal the user's token and gain access to their files.
 
 ## <u> OWASP Top 10 Application Security Risks  </u>
 
