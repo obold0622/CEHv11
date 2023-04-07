@@ -572,7 +572,7 @@ All regulatory compliance such as COBIT, SSAE, SOCII, PCI-DSS, HIPPA, SOX, FINRA
 - **Exact replica of production systems**
 - Applications and software are constantly updated
 - Flip a switch and everyting moves
-- **It take hours to bring online**
+- **It takes hours to bring online**
 - Real-time synchronization
 - Almost all data ready to go - often just a quick update
 - Very expensive
@@ -592,7 +592,7 @@ All regulatory compliance such as COBIT, SSAE, SOCII, PCI-DSS, HIPPA, SOX, FINRA
   - **Post-Assessment** - Reports & conclusions
 - Types
   - **Black Box** - Done without any knowledge of the system or network.
-  - **White Box** - When the attacker have complete knowledge of the system provided by the owner/target.
+  - **White Box** - When the attacker has complete knowledge of the system provided by the owner/target.
   - **Gray Box** - When the attacker has some knowledge of the system and/or network
 
 ## <u>Law Categories</u>
@@ -618,7 +618,7 @@ All regulatory compliance such as COBIT, SSAE, SOCII, PCI-DSS, HIPPA, SOX, FINRA
     - *Continuity* -  Maintains interactivity with assets if corruption of failure occurs.
     - *Resilience* - Protects assets from corruption and failure.
   
-- **OSSTM Class B  - Process Controls**
+  - **OSSTM Class B  - Process Controls**
     - *Non-repudiation* - Prevents participants from denying its actions
     - *Confidentiality* - Ensures that only participants know of an asset
     - *Privacy* - Ensures that only participants have access to the asset
@@ -635,7 +635,7 @@ This International Standard has been prepared to provide requirements for establ
 Based on BS799 but focuses on security objectives and provides security controls based on industry best practice.
 
 ### **HIPAA**
-**"Health Insurance Portability and Accountability Act"** a law that set's privacy standards to protect patient medical records and health information shared between doctors, hospitals and insurance providers.
+**"Health Insurance Portability and Accountability Act"** A law that sets privacy standards to protect patient medical records and health information shared between doctors, hospitals, and insurance providers.
 
 ### **SOX**
 **"Sarbanes-Oxley Act" Law** that requires publicly traded companies to submit to independent audits and to properly disclose financial information.
@@ -653,16 +653,16 @@ Catalogs security and privacy controls for federal information systems, created 
 **"Federal Information Technology Acquisition Reform Act"** A 2013 bill that was intended to change the framework that determines how the US GOV purchases technology.
 
 ### **COBIT**
-**"Control Object for Information and Related Technology"** IT Governance framework and toolset, created by ISACA and ITGI
+**"Control Object for Information and Related Technology"** IT Governance framework and toolset, created by ISACA and ITGI.
 
 ### **GLBA**
 **"U.S Gramm-Leach-Bliley Act"** Law that protects the confidentiality and integrity of personal information that is collected by financial institutions.
 
 ### **CSIRT**
-**"Computer Security Incident Response Team"** CSIRT provided a single point of contact when reporting computer security incidents
+**"Computer Security Incident Response Team"** CSIRT provided a single point of contact when reporting computer security incidents.
 
 ### **ITIL**
-**"Information Technology Infrastructure Library"** - An operational framework developed in the '80s that standardizes IT management procedures 
+**"Information Technology Infrastructure Library"** - An operational framework developed in the '80s that standardizes IT management procedures. 
 
 # <u>Essential Knowledge</u>
 
@@ -696,7 +696,7 @@ Catalogs security and privacy controls for federal information systems, created 
 
 #### ❌ TCP Connection termination
 1. **Host A** sends a **FIN** (finish) flag, indicating that is has finished sending the data.
-2. **Host B** who receives the **FIN**, doest not terminate the connection but enters into a "passive close" (CLOSE_WAIT) state and sends the **ACK** for the **FIN** back to the Host A.
+2. **Host B** who receives the **FIN**, does not terminate the connection but enters into a "passive close" (CLOSE_WAIT) state and sends the **ACK** for the **FIN** back to the Host A.
 3. **Host A** enters into a (TIME_WAIT) state, and sends an **ACK** back to the Host B.
 4. **Host B** gets the **ACK** from the Host A and **closes the connection.**
 
@@ -715,7 +715,7 @@ Catalogs security and privacy controls for federal information systems, created 
 
 ### <u>Port Numbers</u>
 
-- **Internet Assigned Numbers Authority** (IANA) - maintains Service Name and Transport Protocol Port Number Registry which lists all port number reservations
+- **Internet Assigned Numbers Authority** (IANA) - Maintains Service Name and Transport Protocol Port Number Registry which lists all port number reservations.
 
 - Ranges
 
