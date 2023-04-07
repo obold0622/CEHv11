@@ -1,6 +1,6 @@
 # <u> Reconnaissance and Footprinting</u>
 
-> ⚡︎ **This chapter have [practical labs](https://github.com/Samsar4/Ethical-Hacking-Labs/tree/master/1-Footprinting-and-Reconnaissance)**
+> ⚡︎ **This chapter has [practical labs](https://github.com/Samsar4/Ethical-Hacking-Labs/tree/master/1-Footprinting-and-Reconnaissance)**
 
 ## <u>Footprinting</u>
 Footprinting is a part of reconnaissance process which is used for gathering possible information about a target computer system or network. 
@@ -18,11 +18,11 @@ When used in the computer security lexicon, "Footprinting" generally refers to o
 
 - **Know Security Posture** – The data gathered will help us to get an overview of the security posture of the company such as details about the presence of a firewall, security configurations of applications etc.
 
-- **Reduce Attack Area** – Can identify a specific range of systems and concentrate on particular targets only. This will greatly reduce the number of systems we are focussing on.
+- **Reduce Attack Area** – Can identify a specific range of systems and concentrate on particular targets only. This will greatly reduce the number of systems we are focusing on.
 
-- **Identify vulnerabilities** – we can build an information database containing the vulnerabilities, threats, loopholes available in the system of the target organization.
+- **Identify vulnerabilities** – We can build an information database containing the vulnerabilities, threats, loopholes available in the system of the target organization.
 
-- **Draw Network map** – helps to draw a network map of the networks in the target organization covering topology, trusted routers, presence of server and other information.
+- **Draw Network map** – Helps to draw a network map of the networks in the target organization covering topology, trusted routers, presence of server and other information.
 
 Footprinting could be both **passive** and **active**. Reviewing a company’s website is an example of passive footprinting, whereas attempting to gain access to sensitive information through social engineering is an example of active information gathering.
 
@@ -268,7 +268,7 @@ Can be:
 
 - Use `traceroute` to find intermediary servers
   - traceroute uses ICMP echo in Windows (tracert)
-  - traceroute is good for detect Firewalls and the network path
+  - traceroute is good for detecting Firewalls and the network path
 
 **Usage example**:
   - **`traceroute -I nsa.gov`**
