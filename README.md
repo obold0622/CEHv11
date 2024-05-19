@@ -8,8 +8,7 @@
 ## 📢 About this repo
 
 * **Unofficial Study Guide for CEH v11 exam, forked from:**
-* <small>https://github.com/scottymcraig/CEHv11StudyGuide</small> 
-* <small> forked from: https://github.com/Samsar4/CEH-v10-Study-Guide</small> 
+* <small>https://github.com/imrk51/CEH-v11-Study-Guide)</small> 
     * **Targetted Changes:**
         - [+] Modules update
         - [+] Increased information details in all modules
